@@ -1,0 +1,9 @@
+.App-Div {
+  margin: 2rem;
+  padding: 1rem;
+  border: 1px dashed blue;
+  display: flex;
+  background: cornflowerblue;
+  max-height: 50vh;
+  overflow: scroll;
+}
