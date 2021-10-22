@@ -75,5 +75,4 @@ Refactor the profile page you made in [the React Introduction Lab](https://githu
 
 - All components should be React class components.
 - Your lab should still look the same way it did before in the web browser.
-- All of the unit tests should pass on your computer.
 - All of the unit tests should still pass.
