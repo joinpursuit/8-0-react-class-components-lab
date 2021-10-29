@@ -4,3 +4,8 @@
   border: 8px solid;
   padding: 0.5rem;
 }
+
+.ContactList ul {
+  list-style: none;
+}
+

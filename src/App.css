@@ -1,9 +1,11 @@
 .App-Div {
-  margin: 2rem;
-  padding: 1rem;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding: 3em;
   border: 1px dashed blue;
-  display: flex;
   background: cornflowerblue;
-  max-height: 50vh;
+  max-height: 100vh;
   overflow: scroll;
+  display: flex;
 }
