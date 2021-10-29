@@ -1,0 +1,14 @@
+.profile {
+    border: 3px solid black;
+    display: grid;
+    grid-template-columns: 0.25fr 1fr;
+    padding: 2px;
+    margin-left: 4px;
+}
+
+.profile img {
+    width: 180px;
+    height: 180px;
+    padding-right: 8px;
+}
+
