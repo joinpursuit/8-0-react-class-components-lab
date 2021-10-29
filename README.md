@@ -35,7 +35,8 @@ This will run Jest tests.
 If you'd like to have your tests reload as you are working on your code, you can run the following command.
 
 ```
-npm run watch
+
+
 ```
 
 Follow the on-screen prompts to run some or all of the tests.
