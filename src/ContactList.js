@@ -4,7 +4,7 @@ import "./ContactList.css";
 
 class ContactList extends React.Component {
   constructor() {
-    super()
+    super();
   }
   render() {
     return (
@@ -19,7 +19,6 @@ class ContactList extends React.Component {
       </div>
     );
   }
-};
-
+}
 
 export default ContactList;
