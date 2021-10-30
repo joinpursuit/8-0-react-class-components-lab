@@ -1,0 +1,45 @@
+.profile{
+    border: 5px solid black; 
+}
+.profile-grid{
+    display: grid;
+    grid-template-columns: .29fr 1fr;
+    grid-template-rows: 1fr;
+    border-top: 2px solid black;
+
+}
+
+
+/* .profile-grid > *:first-child{
+
+} */
+
+.profile-grid img{
+    height: 190px;
+    width: 150px;
+    margin-right: 0;
+    padding: 2px;
+    border-radius: 25% 10%;
+    transition: transform .2s; /* Animation */
+}
+
+.profile-grid img:hover{
+    transform: scale(2.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.profile p{
+font-size: 1.2rem;
+font-style: italic;
+font-family: cursive;
+
+}
+
+.profile-grid p{
+    color: rgb(5, 3, 0);
+    font-size: 0.9rem;
+}
+
+
+article p {
+    font-size: 1.9rem;
+}
