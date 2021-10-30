@@ -5,7 +5,7 @@ class Post extends React.Component {
   constructor(){
     super()
     this.title = "Sample Post Title"
-    this.imageLink = "https:www.stockvault.net/data/2007/03/01/10069/preview16.jpg"
+    this.imageLink = "https://www.stockvault.net/data/2007/03/01/100169/preview16.jpg"
     this.description = "This is a post description"
   }
   render (){
