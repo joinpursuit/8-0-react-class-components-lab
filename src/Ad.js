@@ -20,6 +20,7 @@ export const adInfo = [
 //   const index = Math.floor(Math.random() * adInfo.length);
 //   const ad = adInfo[index];
 
+
 //   return (
 //     <div className="Ad" data-testid="ad">
 //       <img src={ad.src} alt="cool ad" />
@@ -29,17 +30,17 @@ export const adInfo = [
 // };
 class Ad extends React.Component {
   constructor() {
-    super()
+    super();
     this.index = Math.floor(Math.random() * adInfo.length);
-    this.ad = adInfo[index];
+    this.ad = adInfo[this.index];
   }
   render() {
     return (
       <div className="Ad" data-testid="ad">
-      <img src={this.ad.src} alt="cool ad" />
-      <p data-testid="ad-text">{this.ad.text}</p>
-   </div>
-    )
+        <img src={this.ad.src} alt="cool ad" />
+        <p data-testid="ad-text">{this.ad.text}</p>
+      </div>
+    );
   }
 }
 
