@@ -7,6 +7,7 @@ const postInfo = {
   description: "This is the description of the post",
 };
 
+
 const Post = () => {
   return (
     <div className="Post" data-testid="post">
@@ -16,5 +17,6 @@ const Post = () => {
     </div>
   );
 };
+
 
 export default Post;
