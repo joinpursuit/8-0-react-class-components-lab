@@ -22,14 +22,25 @@ class ContactList extends Component{
   }
   render(){
    return(
-    <div className="ContactList" data-testid="contact-list">
-      <p>Contacts</p>
-      <ul>
-        {this.titles.map(title => <li>{title}</li>)}
-      </ul>
-    </div>
+        <div className="ContactList" data-testid="contact-list">
+          <p>Contacts</p>
+            <ul>
+              <li>Andrew Clark</li>
+              <li>Brian Vaughn</li>
+              <li>Dan Abramov</li>
+              <li>Flarnie Marchan</li>
+           </ul>
+        </div>
      ) 
   }
 }
 
 export default ContactList;
+
+
+{/* <div className="ContactList" data-testid="contact-list">
+<p>Contacts</p>
+<ul>
+  {this.titles.map(title => <li>{title}</li>)}
+</ul>
+</div> */}
