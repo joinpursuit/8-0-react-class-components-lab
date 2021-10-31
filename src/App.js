@@ -9,7 +9,7 @@ class App extends React.Component {
       <div className="App-Div">
         <Feed />
         <ContactList />
-        <Profile />
+         <Profile /> 
       </div>
     );
   }

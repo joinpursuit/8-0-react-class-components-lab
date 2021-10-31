@@ -8,3 +8,19 @@
 .ContactList ul li{
 min-width: max-content;
 }
+
+
+/*Animation*/
+@keyframes slideInFromTop {
+  0% {
+    transform: translateY(100%);
+  }
+  
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.ContactList{
+  animation:slideInFromTop 2s ease-in;
+}

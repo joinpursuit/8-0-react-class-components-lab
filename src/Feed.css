@@ -7,3 +7,19 @@
   align-items: center;
   height: 100%;
 }
+
+
+/*Animation*/
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.Feed{
+  animation:slideInFromLeft 2s ease-in;
+}
