@@ -22,7 +22,7 @@ class Ad extends React.Component {
     this.index = Math.floor(Math.random() * adInfo.length);
     this.ad = adInfo[this.index];
   }
-
+  
   render(){
     return (
       <div className="Ad" data-testid="ad">
