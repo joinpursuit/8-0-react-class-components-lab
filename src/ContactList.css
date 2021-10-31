@@ -1,6 +1,10 @@
 .ContactList {
   font-family: cursive;
-  margin: 50px;
+  margin: 30px;
   border: 8px solid;
   padding: 0.5rem;
+}
+
+.ContactList ul li{
+min-width: max-content;
 }

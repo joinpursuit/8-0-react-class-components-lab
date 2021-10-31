@@ -12,13 +12,14 @@ class Profile extends React.Component {
     return (
       <div className="profile" data-testid="Profile">
         <h1>Profile</h1>
-          <p>{this.text}</p>    
+          <h2 className = 'text'>{this.text}</h2>    
         <div className = 'profile-grid'>
             <div>
             <img src={this.image} />
           </div>
           <div>
-            <p>{this.bio}</p>
+            <p >{this.bio} <a href="https://www.nobelprize.org/prizes/peace/1993/mandela/biographical/" class="btn" target = '_blank'>Read More</a>
+           </p>
           </div>
         </div>  
       </div>

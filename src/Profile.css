@@ -1,45 +1,71 @@
-.profile{
-    border: 5px solid black; 
+.profile {
+  border: 5px solid black;
+  height: max-content;
 }
-.profile-grid{
-    display: grid;
-    grid-template-columns: .29fr 1fr;
-    grid-template-rows: 1fr;
-    border-top: 2px solid black;
-
+.profile-grid {
+  display: grid;
+  grid-template-columns: 0.29fr 1fr;
+  grid-template-rows: 1fr;
+  border-top: 2px solid black;
 }
 
+.profile h1 {
+  text-align: center;
+}
 
-/* .profile-grid > *:first-child{
+h2.text {
+  font-size: 1.2rem;
+  text-align: center;
+}
 
+a {
+  cursor: pointer;
+}
+/* 
+@supports (initial-letter: 4) or (-webkit-initial-letter: 4){
+  .bio::first-letter {
+    border: 1px solid black;
+    padding: 1.6rem;
+    margin: 0 1rem 0 0;
+    -webkit-initial-letter: 4;
+    initial-letter: 4;
+  }
 } */
 
-.profile-grid img{
-    height: 190px;
-    width: 150px;
-    margin-right: 0;
-    padding: 2px;
-    border-radius: 25% 10%;
-    transition: transform .2s; /* Animation */
+.profile-grid :nth-child(2):first-letter {
+    color:rgb(82, 79, 79);
+    font-size: 80px;
+    padding-right: 8px;
+    float:left;
+    line-height: 0.7;
+    font-family: georgia;
+  }
+
+
+
+
+.profile-grid :nth-child(2) {
+  font-family: georgia;
+  initial-letter: 2;
 }
 
-.profile-grid img:hover{
-    transform: scale(2.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+.profile-grid img {
+  height: 190px;
+  width: 150px;
+  margin-right: 0;
+  padding: 4px;
+  border-radius: 25% 10%;
+  transition: transform 0.2s; /* Animation */
 }
 
-.profile p{
-font-size: 1.2rem;
-font-style: italic;
-font-family: cursive;
-
+.profile-grid img:hover {
+  transform: scale(
+    2.5
+  ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
 
-.profile-grid p{
-    color: rgb(5, 3, 0);
-    font-size: 0.9rem;
-}
-
-
-article p {
-    font-size: 1.9rem;
+.profile-grid p {
+  font-family: cursive;
+  color: rgb(5, 3, 0);
+  font-size: 0.9rem;
 }
