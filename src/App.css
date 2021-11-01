@@ -4,7 +4,7 @@
   border: 1px dashed blue;
   display: flex;
   background: cornflowerblue;
-  max-height: 50vh;
+  max-height: 55vh;
   overflow: scroll;
 }
 

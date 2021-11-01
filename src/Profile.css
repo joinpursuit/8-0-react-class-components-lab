@@ -1,9 +1,13 @@
 
 /* Main */
 .profile {
-  border: 5px solid black;
+  border: 0.001px solid rgb(28, 230, 45);
   height: max-content;
-  
+  overflow: visible;
+  background-color: rgb(28, 145, 181);
+  color: #333;
+  border-radius: 10px;
+  box-shadow: 0 5px 1px rgba(20, 6, 6, 0.2);
 }
 
 /* Heading */
