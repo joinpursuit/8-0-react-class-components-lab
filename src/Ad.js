@@ -16,9 +16,13 @@ export const adInfo = [
   },
 ];
 
-const Ad = () => {
-  const index = Math.floor(Math.random() * adInfo.length);
-  const ad = adInfo[index];
+
+class Ad extends React.Component {
+  render() {
+    const index = Math.floor(Math.random() * adInfo.length);
+    const ad = adInfo[index];
+  
+
 
   return (
     <div className="Ad" data-testid="ad">
@@ -27,5 +31,6 @@ const Ad = () => {
     </div>
   );
 };
+}
 
 export default Ad;
