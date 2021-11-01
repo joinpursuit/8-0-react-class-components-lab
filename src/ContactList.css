@@ -3,5 +3,10 @@
   margin: 50px;
   border: 8px solid;
   padding: 0.5rem;
-  height: 280px;
+  height: max-content;
+  background-color: rgb(155, 215, 174);
+}
+
+.ContactList p {
+  font-weight: bold;
 }

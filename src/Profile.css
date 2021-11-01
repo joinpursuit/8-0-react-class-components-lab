@@ -1,9 +1,11 @@
 .profile {
     border: 3px solid black;
+    height: max-content;
     display: grid;
     grid-template-columns: 0.25fr 1fr;
     padding: 2px;
     margin-left: 4px;
+    background-color: rgb(232, 232, 202);
 }
 
 .profile img {
@@ -11,4 +13,14 @@
     height: 180px;
     padding-right: 8px;
 }
+
+.profile h1 {
+    font-family: cursive;
+}
+
+.profile p {
+    font-family: cursive;
+}
+
+
 
