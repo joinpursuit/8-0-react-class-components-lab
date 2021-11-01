@@ -31,6 +31,6 @@ class Ad extends React.Component {
     </div>
     );
   }
-};
+}
 
 export default Ad;
