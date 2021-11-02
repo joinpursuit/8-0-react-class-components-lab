@@ -1,0 +1,10 @@
+.Profile {
+    font-family: sans-serif;
+    margin: 50px;
+    padding: 0.5rem;
+    text-align: center;
+  }
+
+.Profile img {
+  width: 200px;
+}
