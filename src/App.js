@@ -9,7 +9,12 @@ class App extends Component {
     super();
   }
   render() {
-    
+    return (
+          <div className="App-Div">
+            <Feed />
+            <ContactList />
+          </div>
+        );
   }
 }
 

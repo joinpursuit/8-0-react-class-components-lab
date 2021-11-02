@@ -8,7 +8,17 @@ class Feed extends Component {
     super();
   }
   render() {
-
+    return (
+          <div className="Feed" data-testid="feed">
+            <h2>Feed</h2>
+            <Post />
+            <Post />
+            <Ad />
+            <Post />
+            <Ad />
+            <Post />
+          </div>
+        );
   }
 }
 
