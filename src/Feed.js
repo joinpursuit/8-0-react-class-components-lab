@@ -1,9 +1,15 @@
-import React from "react";
+
 import Ad from "./Ad.js";
 import Post from "./Post.js";
 import "./Feed.css";
+import { Component } from "react"
 
-const Feed = () => {
+class Feed extends Component {
+  constructor(){
+    super()
+  }
+
+  render(){
   return (
     <div className="Feed" data-testid="feed">
       <h2>Feed</h2>
@@ -15,6 +21,7 @@ const Feed = () => {
       <Post />
     </div>
   );
+}
 };
 
 export default Feed;
