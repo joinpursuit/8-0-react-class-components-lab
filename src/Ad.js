@@ -15,17 +15,36 @@ export const adInfo = [
     text: "Celebs: Where are they now??",
   },
 ];
+class Ad extends React.Component{
+  constructor(src, text){
+    super()
+    this.src = src;
+    this.text = text;
 
-const Ad = () => {
-  const index = Math.floor(Math.random() * adInfo.length);
-  const ad = adInfo[index];
+  }
+  render(){
+    const index = Math.floor(Math.random() * adInfo.length);
+    const ad = adInfo[index];
 
-  return (
-    <div className="Ad" data-testid="ad">
+    return (
+      <div className="Ad" data-testid="ad">
       <img src={ad.src} alt="cool ad" />
       <p data-testid="ad-text">{ad.text}</p>
     </div>
-  );
-};
+    )
+  }
+}
+
+// const Ad = () => {
+//   const index = Math.floor(Math.random() * adInfo.length);
+//   const ad = adInfo[index];
+
+//   return (
+//     <div className="Ad" data-testid="ad">
+//       <img src={ad.src} alt="cool ad" />
+//       <p data-testid="ad-text">{ad.text}</p>
+//     </div>
+//   );
+// };
 
 export default Ad;
