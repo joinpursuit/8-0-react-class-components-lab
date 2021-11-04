@@ -1,0 +1,12 @@
+.profile{
+        text-align: center;
+        font-family: cursive;
+        margin: 50px;
+        border: 8px solid;
+        padding: 0.5rem;
+        width: 230px;
+    }
+    .profile img{
+        width: 50px;
+    }
+    
