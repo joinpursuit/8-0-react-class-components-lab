@@ -1,9 +1,10 @@
-import React from "react";
+import { Component } from "react";
 import "./ContactList.css";
 
-const ContactList = () => {
-  return (
-    <div className="ContactList" data-testid="contact-list">
+class ContactList  extends Component {
+  render () {
+    return (
+      <div className="ContactList" data-testid="contact-list">
       <p>Contacts</p>
       <ul>
         <li>Andrew Clark</li>
@@ -11,8 +12,18 @@ const ContactList = () => {
         <li>Dan Abramov</li>
         <li>Flarnie Marchan</li>
       </ul>
-    </div>
-  );
-};
+      </div>
+    );
+  }
+}
 
 export default ContactList;
+
+
+
+/* it("renders contacts", () => {
+  screen.getByText("Andrew Clark");
+  screen.getByText("Brian Vaughn");
+  screen.getByText("Dan Abramov");
+  screen.getByText("Flarnie Marchan");
+}); */
