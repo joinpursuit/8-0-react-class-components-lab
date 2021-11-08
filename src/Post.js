@@ -1,4 +1,4 @@
-import React from "react";
+import { Component } from "react";
 import "./Post.css";
 
 const postInfo = {
@@ -7,7 +7,8 @@ const postInfo = {
   description: "This is the description of the post",
 };
 
-const Post = () => {
+class Post extends Component {
+  render(){
   return (
     <div className="Post" data-testid="post">
       <p>{postInfo.title}</p>
@@ -15,6 +16,7 @@ const Post = () => {
       <p>{postInfo.description}</p>
     </div>
   );
+  }
 };
 
 export default Post;
