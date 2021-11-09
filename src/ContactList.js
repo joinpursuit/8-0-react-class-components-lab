@@ -1,7 +1,9 @@
-import React from "react";
 import "./ContactList.css";
+import {Component} from "react";
 
-const ContactList = () => {
+class ContactList extends Component{
+
+  render(){
   return (
     <div className="ContactList" data-testid="contact-list">
       <p>Contacts</p>
@@ -13,6 +15,7 @@ const ContactList = () => {
       </ul>
     </div>
   );
+  }
 };
 
 export default ContactList;
