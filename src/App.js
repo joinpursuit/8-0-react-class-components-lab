@@ -1,15 +1,17 @@
-import React from "react";
-import "./App.css";
-import ContactList from "./ContactList";
-import Feed from "./Feed";
+import React from 'react'
+import { Component } from 'react/cjs/react.production.min'
+import './App.css'
+import ContactList from './ContactList'
+import Feed from './Feed'
 
-function App() {
-  return (
-    <div className="App-Div">
-      <Feed />
-      <ContactList />
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <div className='App-Div'>
+        <Feed />
+        <ContactList />
+      </div>
+    )
+  }
 }
-
-export default App;
+export default App
