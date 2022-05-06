@@ -1,20 +1,33 @@
-import React from "react";
-import "./Post.css";
+import { React, Component } from 'react';
+import './Post.css';
 
 const postInfo = {
-  title: "Sample Post Title",
-  imageLink: "https://www.stockvault.net/data/2007/03/01/100169/preview16.jpg",
-  description: "This is the description of the post",
+  title: 'Sample Post Title',
+  imageLink: 'https://www.stockvault.net/data/2007/03/01/100169/preview16.jpg',
+  description: 'This is the description of the post',
 };
 
-const Post = () => {
-  return (
-    <div className="Post" data-testid="post">
-      <p>{postInfo.title}</p>
-      <img src={postInfo.imageLink} alt="post" />
-      <p>{postInfo.description}</p>
-    </div>
-  );
-};
+// const Post = () => {
+//   return (
+// <div className="Post" data-testid="post">
+//   <p>{postInfo.title}</p>
+//   <img src={postInfo.imageLink} alt="post" />
+//   <p>{postInfo.description}</p>
+// </div>
+//   );
+// };
+
+//The arrow function Post above can be re-written by using the class...extends
+class Post extends Component {
+  render() {
+    return (
+      <div className='Post' data-testid='post'>
+        <p>{postInfo.title}</p>
+        <img src={postInfo.imageLink} alt='post' />
+        <p>{postInfo.description}</p>
+      </div>
+    );
+  }
+}
 
 export default Post;
