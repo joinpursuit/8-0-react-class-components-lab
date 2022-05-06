@@ -1,7 +1,7 @@
-import React from "react";
-import "./App.css";
-import ContactList from "./ContactList";
-import Feed from "./Feed";
+import React from 'react';
+import './App.css';
+import ContactList from './ContactList';
+import Feed from './Feed';
 
 class App extends React.Component {
   render() {
@@ -10,7 +10,7 @@ class App extends React.Component {
         <Feed />
         <ContactList />
       </div>
-    )
+    );
   }
 }
 
