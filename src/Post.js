@@ -7,7 +7,7 @@ const postInfo = {
   description: "This is the description of the post",
 };
 
-const Post = () => {
+/*const Post = () => {
   return (
     <div className="Post" data-testid="post">
       <p>{postInfo.title}</p>
@@ -15,6 +15,18 @@ const Post = () => {
       <p>{postInfo.description}</p>
     </div>
   );
-};
+};*/
+
+class Post extends React.Component {
+  render() {
+    return (
+      <div className="Post" data-testid="post">
+        <p>{postInfo.title}</p>
+        <img src={postInfo.imageLink} alt="post" />
+        <p>{postInfo.description}</p>
+      </div>
+    );
+  }
+}
 
 export default Post;
