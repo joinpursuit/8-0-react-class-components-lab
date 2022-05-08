@@ -3,13 +3,16 @@ import "./App.css";
 import ContactList from "./ContactList";
 import Feed from "./Feed";
 
-function App() {
-  return (
+class App extends React.Component{
+  render()
+  {return (
     <div className="App-Div">
       <Feed />
       <ContactList />
     </div>
   );
+  }
 }
+
 
 export default App;
