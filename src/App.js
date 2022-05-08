@@ -18,7 +18,12 @@ class App extends React.Component {
   }
 
   render() {
-    return <ContactList />;
+    return (
+      <div className="App-Div">
+        <Feed />
+        <ContactList />
+      </div>
+    );
   }
 }
 
