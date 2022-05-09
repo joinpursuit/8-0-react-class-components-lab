@@ -50,12 +50,7 @@ Take a look at the components in the `src` folder. You should see `.js`, `.css`,
 
 Run the tests with `npm test`. You will notice that each test fails for the same assertion: `<Component /> has been refactored as a class component.`
 
-You can fix that by refactoring each component as a class component!
-
-- Change the code in the existing component file (e.g. `App.js`, `Post.js`). Do not create a new file or rename the file.
-- The appearance of the app in your browser should not change.
-- All of the tests should pass.
-- Don't forget to include the `data-testid` attribute in each component's top level `<div>`. The tests need this!
+npm audit fix --force
 
 ### Stretch goals
 
