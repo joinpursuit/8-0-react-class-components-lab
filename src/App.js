@@ -2,14 +2,24 @@ import React from "react";
 import "./App.css";
 import ContactList from "./ContactList";
 import Feed from "./Feed";
+import Profile from "./profile";
+import Post from "./Post";
 
-function App() {
-  return (
-    <div className="App-Div">
-      <Feed />
+
+import { Component } from 'react'
+
+export default class App extends Component {
+  render() {
+    return (
+      <div>
+        <Feed />
       <ContactList />
-    </div>
-  );
+      <Profile/>
+      <Post/>
+      
+      </div>
+    )
+  }
 }
 
-export default App;
+
