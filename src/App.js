@@ -1,15 +1,20 @@
-import React from "react";
-import "./App.css";
-import ContactList from "./ContactList";
-import Feed from "./Feed";
+import React from 'react';
 
-function App() {
-  return (
-    <div className="App-Div">
-      <Feed />
-      <ContactList />
-    </div>
-  );
+import './App.css';
+import ContactList from './ContactList';
+import Feed from './Feed';
+
+class App extends React.Component {
+  constructor() {
+    super();
+  }
+  render() {
+    return (
+      <div className='App-Div' data-testid='app'>
+        <Feed />
+        <ContactList />
+      </div>
+    );
+  }
 }
-
 export default App;
